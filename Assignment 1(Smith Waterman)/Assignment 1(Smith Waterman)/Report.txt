@@ -1,0 +1,73 @@
+Name: Kartikeya Bhardwaj
+Student ID:1840684
+
+
+deadly vs ddgearlyk
+
+Score: 20
+
+d-eadly
+d ea ly
+dgearly
+
+0 0 0 0 0 0 0 0 0 0
+0 6 6 2 2 0 0 0 0 0
+0 2 8 4 7 3 0 0 0 1
+0 0 4 8 4 11 7 3 0 0
+0 6 6 4 10 7 9 5 1 0
+0 2 2 2 6 9 5 13 9 5
+0 0 0 0 2 5 7 9 20 16
+
+count: 999
+parallel time: 250 ms
+
+Empirical pValue: 0.036
+
+
+       P15172  P17542  P10085  P16075  P13904  Q90477  Q8IU24  P22816  Q10574  O95363
+P15172 0        143     1500    1020    978     893     428     368     118    56
+P17542 0        0       128     129     128     112     144     123     156    66
+P10085 0        0       0       1043    1002    925     440     367     118    52
+P16075 0        0       0       0       1147    1093    448     414     120    61
+P13904 0        0       0       0       0       1104    450     410     120    72
+Q90477 0        0       0       0       0       0       449     410     117    62
+Q8IU24 0        0       0       0       0       0       0       446     125    45
+P22816 0        0       0       0       0       0       0       0       124    74
+Q10574 0        0       0       0       0       0       0       0       0      67
+O95363 0        0       0       0       0       0       0       0       0       0
+
+
+P15172 vs Q10574
+Empirical pValue: 2e-05 in 10^6 iterations
+
+
+P15172 vs O95363
+Empirical pValue: 0.6091 in 10^6 iterations
+
+I(b)
+P15172: Acts as a transcriptional activator that promotes transcription of muscle-specific 
+target genes and plays a role in muscle differentiation.
+P17542: It may play an important role in hemopoietic differentiation(red blood cells)
+P10085: Same as P15172. But for mouse.
+P16075: Same as above. But for chicken.
+P13904: Same as above. But for frog.
+Q90477: Same as above. But for zebrafish
+Q8IU24: Responsible for muscle organ development and transcription in Amphioxus(fish)
+P22816: Responsible for muscle development in Fruit fly.
+Q10574: Essential for the specification of the neuroblast cell fate in the development of peripheral sense organs. 
+		Responsible for neural development and embryo development.
+O95363: Responsible for ATP binding and tRNA binding.
+
+It seems like P15172, P10085, P16075, P13904, Q90477,Q8IU24 and P22816 are all responsible for 
+muscle development and transcription. So they should be evolutionary related. In terms of hierarchy,
+I would assume the distance should increase (or the scores should decrease) when we move away from
+humans. As in, P15172 should have highest score with P10085 followed by chicken, frog, zebrafish,
+fruit fly and amphioxus. Q10574,P17542 and O95363 are odd ones out in this list as they 
+have no relation to muscle development and should have low scores.
+
+After the scores:
+After seeing the scores, my insight is unchanged. As I had expected, 
+all muscle differentiation proteins have higher scores. The combination of 
+any other protein with a muscle differentiation protein leads to a lower score. 
+The score of MYoD with Fruit fly protein is higher than MYoD and O95363 which is also a human protein.
+

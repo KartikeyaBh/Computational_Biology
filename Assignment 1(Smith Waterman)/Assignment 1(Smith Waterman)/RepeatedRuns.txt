@@ -1,0 +1,20 @@
+0.0059994
+0.0505949
+0.00679932
+0.0357964
+0.0089914
+0.0069993
+0.010199
+0.00489951
+0.00719928
+0.00439956
+
+0.00017
+
+KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVV
+QAHCAGVITALNNVIDFLHDPGLMEASLIGLVERH-KKRGQTKEEFQNLKEVMLEVLRQALGKQYTPEVAEAWNKTL
+
+
+I am testing Mso::Branding::GetAppValue(Mso::Branding::AppValueTypes::NameVersion, L"Word")
+My goal is to check if the About page in skype for business shows office 2019. We use the ShowHelpAbout api for that. And it internally calls this. So I thought it should work automatically for us. But when I tested on devc2r it was still office 2016. My checkpoint was 9017.1000
+ 

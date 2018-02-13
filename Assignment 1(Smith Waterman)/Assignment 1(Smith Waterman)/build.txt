@@ -1,0 +1,26 @@
+Name: Kartikeya Bhardwaj
+Student ID:1840684
+
+I have written the program in Visual C++. To increase the speed of execution I have used parallel patterns library of
+Visual C++. To compile it you will need Visual C++. I run it from Developer command prompt for Visual studio.
+
+If you dont have visual c++, you can compile it using standard by commenting out the parallel portion of the source
+and uncommenting the serial section. Serial takes a long time to execute.
+
+Please contact me at karbha@microsoft.com or 425-449-1962 if you are having trouble building it.
+
+1. cl.exe /EHsc "Assignment 1(Smith Waterman).cpp" (I run it from Developer command prompt for Visual studio.)
+2. It will produce an exe which you can execute.
+
+Alternatively you can run the exe attached. The exe would require the obj files to execute. I am sorry for attaching them. :)
+
+The program will ask for three choices.
+0 - If you have accession numbers of the proteins. Make sure the fasta files are present in the same folder.
+1 - If you want the 10 X 10 results of all proteins. Again, make sure that all fasta files for the proteins are present.
+2 - If you want to enter the protein sequences itself.
+
+In each case it will print the score matrix if the sequence is less than 15.
+The default for calculating empirical value is 999 iterations.
+
+This program does parallel execution so it will take 100% of cpu when you execute. :)
+On the upside it takes just 140 seconds to do 10^4 iterations.

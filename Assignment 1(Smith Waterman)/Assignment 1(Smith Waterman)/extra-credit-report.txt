@@ -1,0 +1,46 @@
+Name: Kartikeya Bhardwaj
+Student ID:1840684
+
+a.
+Naive algorithm to shuffle a two card deck.
+No. It does not shuffle even a two card deck properly.
+The permutations of the 2 card deck are 2! = 2
+The naïve algorithm is going to say that it has 2*2 = 4.
+It is still doing more shuffling and one of the permutation is going to be underrepresented or overrepresented.
+
+e.
+Calculate all permutations for the deadly example
+
+Separate Trials:
+0.0059994
+0.0505949
+0.00679932
+0.0357964
+0.0089914
+0.0069993
+0.010199
+0.00489951
+0.00719928
+0.00439956
+
+Composite 200,000 trials:
+0.00017
+
+There is a significant difference in running it 1000 times and 200,000 times.
+The real value is around one tenth of the average.
+
+m.
+Check if the program follows O(n^2) complexity
+
+To reduce the time I had written the program parallely.
+
+For deadly vs ddgearlyk
+The serial time : 4.7 * 10^-3 ms (9*6*1000 => 54 * 1000)
+Parallel time : 15ms
+
+For P15172 vs Q10574
+Serial time: 41s (200 * 500 * 1000 => 10000 * 1000)
+Parallel time: 7s
+
+This suggests a quadratic relationship. As the time for P15172 vs Q10574 is almost multiplied by 10^3.
+Actually the program complexity is O(1000*n^2)
