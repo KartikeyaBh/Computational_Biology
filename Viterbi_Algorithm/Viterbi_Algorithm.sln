@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Viterbi_Algorithm", "Viterbi_Algorithm\Viterbi_Algorithm.vcxproj", "{D46A02FB-7E97-4E25-95F9-A9BD84783029}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assignment 1(Smith Waterman)", "..\Assignment 1(Smith Waterman)\Assignment 1(Smith Waterman)\Assignment 1(Smith Waterman).vcxproj", "{BC3A50AF-F7CF-4260-B274-8B847FE5D510}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assignment 2(EM Algorithm) CompBio", "..\Assignment 2(EM Algorithm) CompBio\EM-Algorithm\Assignment 2(EM Algorithm) CompBio.vcxproj", "{F02D93EC-022E-4B95-AD98-069A48878316}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +25,22 @@ Global
 		{D46A02FB-7E97-4E25-95F9-A9BD84783029}.Release|x64.Build.0 = Release|x64
 		{D46A02FB-7E97-4E25-95F9-A9BD84783029}.Release|x86.ActiveCfg = Release|Win32
 		{D46A02FB-7E97-4E25-95F9-A9BD84783029}.Release|x86.Build.0 = Release|Win32
+		{BC3A50AF-F7CF-4260-B274-8B847FE5D510}.Debug|x64.ActiveCfg = Debug|x64
+		{BC3A50AF-F7CF-4260-B274-8B847FE5D510}.Debug|x64.Build.0 = Debug|x64
+		{BC3A50AF-F7CF-4260-B274-8B847FE5D510}.Debug|x86.ActiveCfg = Debug|Win32
+		{BC3A50AF-F7CF-4260-B274-8B847FE5D510}.Debug|x86.Build.0 = Debug|Win32
+		{BC3A50AF-F7CF-4260-B274-8B847FE5D510}.Release|x64.ActiveCfg = Release|x64
+		{BC3A50AF-F7CF-4260-B274-8B847FE5D510}.Release|x64.Build.0 = Release|x64
+		{BC3A50AF-F7CF-4260-B274-8B847FE5D510}.Release|x86.ActiveCfg = Release|Win32
+		{BC3A50AF-F7CF-4260-B274-8B847FE5D510}.Release|x86.Build.0 = Release|Win32
+		{F02D93EC-022E-4B95-AD98-069A48878316}.Debug|x64.ActiveCfg = Debug|x64
+		{F02D93EC-022E-4B95-AD98-069A48878316}.Debug|x64.Build.0 = Debug|x64
+		{F02D93EC-022E-4B95-AD98-069A48878316}.Debug|x86.ActiveCfg = Debug|Win32
+		{F02D93EC-022E-4B95-AD98-069A48878316}.Debug|x86.Build.0 = Debug|Win32
+		{F02D93EC-022E-4B95-AD98-069A48878316}.Release|x64.ActiveCfg = Release|x64
+		{F02D93EC-022E-4B95-AD98-069A48878316}.Release|x64.Build.0 = Release|x64
+		{F02D93EC-022E-4B95-AD98-069A48878316}.Release|x86.ActiveCfg = Release|Win32
+		{F02D93EC-022E-4B95-AD98-069A48878316}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
